@@ -1,0 +1,10 @@
+C:\Users\kharkovskiy-is\source\repos\SFP\SFP\bin\Debug\SFP.exe.config
+C:\Users\kharkovskiy-is\source\repos\SFP\SFP\bin\Debug\SFP.exe
+C:\Users\kharkovskiy-is\source\repos\SFP\SFP\bin\Debug\SFP.pdb
+C:\Users\kharkovskiy-is\source\repos\SFP\SFP\obj\Debug\SFP.csprojAssemblyReference.cache
+C:\Users\kharkovskiy-is\source\repos\SFP\SFP\obj\Debug\SFP.Form1.resources
+C:\Users\kharkovskiy-is\source\repos\SFP\SFP\obj\Debug\SFP.Properties.Resources.resources
+C:\Users\kharkovskiy-is\source\repos\SFP\SFP\obj\Debug\SFP.csproj.GenerateResource.cache
+C:\Users\kharkovskiy-is\source\repos\SFP\SFP\obj\Debug\SFP.csproj.CoreCompileInputs.cache
+C:\Users\kharkovskiy-is\source\repos\SFP\SFP\obj\Debug\SFP.exe
+C:\Users\kharkovskiy-is\source\repos\SFP\SFP\obj\Debug\SFP.pdb
