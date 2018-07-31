@@ -40,21 +40,18 @@ namespace SFP
 
             foreach (string diName in diNames)
             {
-                //MessageBox.Show(diName);
                 textBoxActiveFile.Text = diName;
                 string[] text = File.ReadAllLines(diName);
                 for (int i = 0; i < text.Length; i++)
                 {
-                    //sLine = 
-                    if (text[i] == content)
+                    bool b = text[i].Contains(content);
+                    if (b)
                     {
                         richTextBoxOutPut.Text += diName + "\n";
                         richTextBoxOutPut.Text += text[i] + "\n";
                         break;
                     }
                 }
-                //text.Close();
-                //textBoxActiveFile.Text = "";
             }
         }
 
