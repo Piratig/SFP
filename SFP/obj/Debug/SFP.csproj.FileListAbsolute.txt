@@ -8,3 +8,13 @@ C:\Users\kharkovskiy-is\source\repos\SFP\SFP\obj\Debug\SFP.csproj.GenerateResour
 C:\Users\kharkovskiy-is\source\repos\SFP\SFP\obj\Debug\SFP.csproj.CoreCompileInputs.cache
 C:\Users\kharkovskiy-is\source\repos\SFP\SFP\obj\Debug\SFP.exe
 C:\Users\kharkovskiy-is\source\repos\SFP\SFP\obj\Debug\SFP.pdb
+A:\MyPrograms\Annealing\SFP\SFP\bin\Debug\SFP.exe.config
+A:\MyPrograms\Annealing\SFP\SFP\bin\Debug\SFP.exe
+A:\MyPrograms\Annealing\SFP\SFP\bin\Debug\SFP.pdb
+A:\MyPrograms\Annealing\SFP\SFP\obj\Debug\SFP.csprojAssemblyReference.cache
+A:\MyPrograms\Annealing\SFP\SFP\obj\Debug\SFP.Form1.resources
+A:\MyPrograms\Annealing\SFP\SFP\obj\Debug\SFP.Properties.Resources.resources
+A:\MyPrograms\Annealing\SFP\SFP\obj\Debug\SFP.csproj.GenerateResource.cache
+A:\MyPrograms\Annealing\SFP\SFP\obj\Debug\SFP.csproj.CoreCompileInputs.cache
+A:\MyPrograms\Annealing\SFP\SFP\obj\Debug\SFP.exe
+A:\MyPrograms\Annealing\SFP\SFP\obj\Debug\SFP.pdb
