@@ -261,3 +261,11 @@ FakesAssemblies/
 
 # Visual Studio 6 workspace options file
 *.opt
+.vs/SFP/v15/.suo
+.vs/SFP/v15/.suo
+*.ide-shm
+*.ide-wal
+SFP/obj/Debug/SFP.pdb
+*.ide-wal
+*.exe
+*.pdb
