@@ -37,7 +37,10 @@
             this.label3 = new System.Windows.Forms.Label();
             this.buttonSearch = new System.Windows.Forms.Button();
             this.richTextBoxOutPut = new System.Windows.Forms.RichTextBox();
-            this.textBoxActiveFile = new System.Windows.Forms.TextBox();
+            this.label4 = new System.Windows.Forms.Label();
+            this.label5 = new System.Windows.Forms.Label();
+            this.label6 = new System.Windows.Forms.Label();
+            this.textBox = new System.Windows.Forms.TextBox();
             this.SuspendLayout();
             // 
             // buttonStartDirectory
@@ -61,7 +64,7 @@
             // 
             this.textBoxFileNameTemplate.Location = new System.Drawing.Point(191, 63);
             this.textBoxFileNameTemplate.Name = "textBoxFileNameTemplate";
-            this.textBoxFileNameTemplate.Size = new System.Drawing.Size(437, 20);
+            this.textBoxFileNameTemplate.Size = new System.Drawing.Size(331, 20);
             this.textBoxFileNameTemplate.TabIndex = 2;
             // 
             // textBoxText
@@ -110,25 +113,56 @@
             // 
             // richTextBoxOutPut
             // 
-            this.richTextBoxOutPut.Location = new System.Drawing.Point(415, 145);
+            this.richTextBoxOutPut.Location = new System.Drawing.Point(12, 188);
             this.richTextBoxOutPut.Name = "richTextBoxOutPut";
-            this.richTextBoxOutPut.Size = new System.Drawing.Size(373, 293);
+            this.richTextBoxOutPut.Size = new System.Drawing.Size(776, 250);
             this.richTextBoxOutPut.TabIndex = 8;
             this.richTextBoxOutPut.Text = "";
             // 
-            // textBoxActiveFile
+            // label4
             // 
-            this.textBoxActiveFile.Location = new System.Drawing.Point(191, 145);
-            this.textBoxActiveFile.Name = "textBoxActiveFile";
-            this.textBoxActiveFile.Size = new System.Drawing.Size(207, 20);
-            this.textBoxActiveFile.TabIndex = 9;
+            this.label4.AutoSize = true;
+            this.label4.Location = new System.Drawing.Point(188, 172);
+            this.label4.Name = "label4";
+            this.label4.Size = new System.Drawing.Size(149, 13);
+            this.label4.TabIndex = 10;
+            this.label4.Text = "Число обработаных файлов";
+            // 
+            // label5
+            // 
+            this.label5.AutoSize = true;
+            this.label5.Location = new System.Drawing.Point(21, 145);
+            this.label5.Name = "label5";
+            this.label5.Size = new System.Drawing.Size(127, 13);
+            this.label5.TabIndex = 11;
+            this.label5.Text = "Обрабатываемый файл";
+            // 
+            // label6
+            // 
+            this.label6.AutoSize = true;
+            this.label6.Location = new System.Drawing.Point(188, 145);
+            this.label6.Name = "label6";
+            this.label6.Size = new System.Drawing.Size(13, 13);
+            this.label6.TabIndex = 12;
+            this.label6.Text = "1";
+            this.label6.Visible = false;
+            // 
+            // textBox
+            // 
+            this.textBox.Location = new System.Drawing.Point(528, 63);
+            this.textBox.Name = "textBox";
+            this.textBox.Size = new System.Drawing.Size(100, 20);
+            this.textBox.TabIndex = 13;
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBoxActiveFile);
+            this.Controls.Add(this.textBox);
+            this.Controls.Add(this.label6);
+            this.Controls.Add(this.label5);
+            this.Controls.Add(this.label4);
             this.Controls.Add(this.richTextBoxOutPut);
             this.Controls.Add(this.buttonSearch);
             this.Controls.Add(this.label3);
@@ -156,7 +190,10 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button buttonSearch;
         private System.Windows.Forms.RichTextBox richTextBoxOutPut;
-        private System.Windows.Forms.TextBox textBoxActiveFile;
+        private System.Windows.Forms.Label label4;
+        private System.Windows.Forms.Label label5;
+        private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.TextBox textBox;
     }
 }
 

@@ -18,3 +18,13 @@ A:\MyPrograms\Annealing\SFP\SFP\obj\Debug\SFP.csproj.GenerateResource.cache
 A:\MyPrograms\Annealing\SFP\SFP\obj\Debug\SFP.csproj.CoreCompileInputs.cache
 A:\MyPrograms\Annealing\SFP\SFP\obj\Debug\SFP.exe
 A:\MyPrograms\Annealing\SFP\SFP\obj\Debug\SFP.pdb
+C:\Users\his19\Documents\GitHub\SFP\SFP\bin\Debug\SFP.exe.config
+C:\Users\his19\Documents\GitHub\SFP\SFP\bin\Debug\SFP.exe
+C:\Users\his19\Documents\GitHub\SFP\SFP\bin\Debug\SFP.pdb
+C:\Users\his19\Documents\GitHub\SFP\SFP\obj\Debug\SFP.csprojAssemblyReference.cache
+C:\Users\his19\Documents\GitHub\SFP\SFP\obj\Debug\SFP.Form1.resources
+C:\Users\his19\Documents\GitHub\SFP\SFP\obj\Debug\SFP.Properties.Resources.resources
+C:\Users\his19\Documents\GitHub\SFP\SFP\obj\Debug\SFP.csproj.GenerateResource.cache
+C:\Users\his19\Documents\GitHub\SFP\SFP\obj\Debug\SFP.csproj.CoreCompileInputs.cache
+C:\Users\his19\Documents\GitHub\SFP\SFP\obj\Debug\SFP.exe
+C:\Users\his19\Documents\GitHub\SFP\SFP\obj\Debug\SFP.pdb

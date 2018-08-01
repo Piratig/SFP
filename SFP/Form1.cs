@@ -17,7 +17,7 @@ namespace SFP
     public partial class Form1 : Form
     {
         static System.Collections.Specialized.StringCollection log = new System.Collections.Specialized.StringCollection();
-
+        int index = 0;
         public Form1()
         {
             InitializeComponent();
@@ -73,14 +73,17 @@ namespace SFP
             {
                 foreach (FileInfo fi in files)
                 {
-                    textBoxActiveFile.Text = fi.FullName;
+                    label6.Text = fi.FullName;
                     string[] text = File.ReadAllLines(fi.FullName);
                     for (int i = 0; i < text.Length; i++)
                     {
                         bool b = text[i].Contains(content);
                         if (b)
                         {
+                            label4.Visible = true;
                             richTextBoxOutPut.Text += fi.FullName + "\n";
+                            index++;
+                            label4.Text = Convert.ToString(index);
                             break;
                         }
                     }
@@ -104,7 +107,7 @@ namespace SFP
                 fileNameSearch = textBoxFileNameTemplate.Text;
             }
             Seasrh(textBoxStartDirectory.Text, textBoxText.Text, fileNameSearch);
-            
+            index = 0;
         }
     }
 }
