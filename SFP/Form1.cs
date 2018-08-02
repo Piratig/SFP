@@ -3,6 +3,7 @@ using System.Collections;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
+using System.Diagnostics;
 using System.Drawing;
 using System.Linq;
 using System.Text;
@@ -57,7 +58,7 @@ namespace SFP
 
             try
             {
-                files = root.GetFiles(fileNameSearch);
+                files = root.GetFiles(fileNameSearch);                
             }
             catch (UnauthorizedAccessException e)
             {
@@ -73,17 +74,17 @@ namespace SFP
             {
                 foreach (FileInfo fi in files)
                 {
+                    label4.Visible = true;
+                    index++;
+                    label4.Text = Convert.ToString(index);
                     label6.Text = fi.FullName;
                     string[] text = File.ReadAllLines(fi.FullName);
                     for (int i = 0; i < text.Length; i++)
                     {
                         bool b = text[i].Contains(content);
                         if (b)
-                        {
-                            label4.Visible = true;
-                            richTextBoxOutPut.Text += fi.FullName + "\n";
-                            index++;
-                            label4.Text = Convert.ToString(index);
+                        {                            
+                            richTextBoxOutPut.Text += fi.FullName + "\n";                         
                             break;
                         }
                     }
@@ -100,14 +101,30 @@ namespace SFP
 
         private void buttonSearch_Click(object sender, EventArgs e)
         {
+            Stopwatch sw = new Stopwatch();
+            sw.Start();
             richTextBoxOutPut.Clear();
+            label4.Text = "0";
             string fileNameSearch = "*";
-            if (textBoxFileNameTemplate.Text != "")
+            if (textBoxFileNameTemplate.Text != "" && textBoxFileNameTemplateEnd.Text != "")
             {
-                fileNameSearch = textBoxFileNameTemplate.Text;
+                    fileNameSearch = textBoxFileNameTemplate.Text + textBoxFileNameTemplateEnd.Text;
+            }
+            else
+            {
+                if (textBoxFileNameTemplate.Text != "" && textBoxFileNameTemplateEnd.Text == "")
+                {
+                    fileNameSearch = textBoxFileNameTemplate.Text + ".*";
+                }
+                if (textBoxFileNameTemplate.Text == "" && textBoxFileNameTemplateEnd.Text != "")
+                {
+                    fileNameSearch = "*" + textBoxFileNameTemplateEnd.Text;
+                }
             }
             Seasrh(textBoxStartDirectory.Text, textBoxText.Text, fileNameSearch);
             index = 0;
+            sw.Stop();
+            label7.Text = (sw.ElapsedMilliseconds / 100.0).ToString();
         }
     }
 }

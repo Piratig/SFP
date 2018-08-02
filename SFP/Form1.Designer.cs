@@ -40,7 +40,8 @@
             this.label4 = new System.Windows.Forms.Label();
             this.label5 = new System.Windows.Forms.Label();
             this.label6 = new System.Windows.Forms.Label();
-            this.textBox = new System.Windows.Forms.TextBox();
+            this.textBoxFileNameTemplateEnd = new System.Windows.Forms.TextBox();
+            this.label7 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // buttonStartDirectory
@@ -64,8 +65,9 @@
             // 
             this.textBoxFileNameTemplate.Location = new System.Drawing.Point(191, 63);
             this.textBoxFileNameTemplate.Name = "textBoxFileNameTemplate";
-            this.textBoxFileNameTemplate.Size = new System.Drawing.Size(331, 20);
+            this.textBoxFileNameTemplate.Size = new System.Drawing.Size(377, 20);
             this.textBoxFileNameTemplate.TabIndex = 2;
+            this.textBoxFileNameTemplate.Text = "*";
             // 
             // textBoxText
             // 
@@ -147,19 +149,30 @@
             this.label6.Text = "1";
             this.label6.Visible = false;
             // 
-            // textBox
+            // textBoxFileNameTemplateEnd
             // 
-            this.textBox.Location = new System.Drawing.Point(528, 63);
-            this.textBox.Name = "textBox";
-            this.textBox.Size = new System.Drawing.Size(100, 20);
-            this.textBox.TabIndex = 13;
+            this.textBoxFileNameTemplateEnd.Location = new System.Drawing.Point(574, 63);
+            this.textBoxFileNameTemplateEnd.Name = "textBoxFileNameTemplateEnd";
+            this.textBoxFileNameTemplateEnd.Size = new System.Drawing.Size(54, 20);
+            this.textBoxFileNameTemplateEnd.TabIndex = 13;
+            this.textBoxFileNameTemplateEnd.Text = ".*";
+            // 
+            // label7
+            // 
+            this.label7.AutoSize = true;
+            this.label7.Location = new System.Drawing.Point(491, 169);
+            this.label7.Name = "label7";
+            this.label7.Size = new System.Drawing.Size(35, 13);
+            this.label7.TabIndex = 14;
+            this.label7.Text = "label7";
             // 
             // Form1
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(800, 450);
-            this.Controls.Add(this.textBox);
+            this.Controls.Add(this.label7);
+            this.Controls.Add(this.textBoxFileNameTemplateEnd);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -193,7 +206,8 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.TextBox textBox;
+        private System.Windows.Forms.TextBox textBoxFileNameTemplateEnd;
+        private System.Windows.Forms.Label label7;
     }
 }
 
